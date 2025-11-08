@@ -11,10 +11,14 @@
             "id": "26cc29c6aa12793c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI/slides.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "slides"
             }
           }
         ]
@@ -164,6 +168,10 @@
   },
   "active": "26cc29c6aa12793c",
   "lastOpenFiles": [
+    "AI/images/perplexity.png",
+    "AI/images/image.png",
+    "AI/images/promptEngineeringTechniques.png",
+    "AI/images",
     "AI/slides.md",
     "AI/index.html",
     "AI",
