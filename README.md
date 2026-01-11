@@ -1,3 +1,3 @@
 | # | Topic | Date | Image theme | Presentation |
 |---:|:---|:---:|:---|:---|
-| 1 | Using AI in software engineering | 06.11.25 | ![preview](https://appfire.com/_next/image?url=https%3A%2F%2Fappfire-production.nyc3.cdn.digitaloceanspaces.com%2F5e9ddea334a4a3ab50e1a4806d808e28.jpg&w=1920&q=75) | [Presentation](https://powercell46.github.io/GithubPages/Obsidian/AI/index.html) |
+| 1 | Final project: Twitter application | 11.01.26 | ![preview](https://images.macrumors.com/t/B9meQ3f-5aJk8p0fb2RUXRwz9AA=/1200x1200/smart/article-new/2021/03/Twitter-Feature.jpg) | [Presentation](https://powercell46.github.io/GithubPages/Obsidian/WebGis/index.html) |
