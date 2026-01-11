@@ -20,6 +20,17 @@ class: center, middle
 
 ---
 
+# Project repositories
+
+1. [Api Gateway](https://github.com/PowerCell46/ItCareerElevatorFifthExerciseApiGateway)
+2. [Message Service](https://github.com/PowerCell46/ItCareerElevatorFifthExerciseMessagingMicroservice)
+3. [Persist message Service](https://github.com/PowerCell46/ItCareerElevatorFifthExerciseMessagePersistenceMicroservice)
+4. [User location Service](https://github.com/PowerCell46/ItCareerElevatorFifthExerciseUserLocationMicroservice)
+5. [Presence Service](https://github.com/PowerCell46/ItCareerElevatorFifthExercisePresenceMicroservice)
+6. [Mail Service](https://github.com/PowerCell46/ItCareerElevatorFifthExerciseMailMicroservice)
+
+---
+
 # What is microservice?
 
 A microservice is an architectural style where an application is built as a collection of small, independent services. Each service is responsible for a specific business capability and communicates with others via well-defined APIs. This approach improves scalability, fault isolation, and independent deployment.
