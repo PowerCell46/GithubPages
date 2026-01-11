@@ -4,7 +4,7 @@ class: center, middle
 
 .center[
   <img src="./images/twitterLogo.png" alt="Twitter Logo"
-       style="max-width:55%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
 *Peter Gerdzhikov*
@@ -15,7 +15,7 @@ class: center, middle
 
 .center[
   <img src="./images/architecture.png" alt="Architecture"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
 ---
@@ -26,7 +26,7 @@ A microservice is an architectural style where an application is built as a coll
 
 .center[
   <img src="./images/Microservice.png" alt="Microservice"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:1rem auto 0 auto;">
 ]
 
 ---
@@ -37,7 +37,7 @@ A monolithic application packages all functionality into a single deployable uni
 
 .center[
   <img src="./images/MonolithVsMsvc.png" alt="Monolith vs Microservice"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:1rem auto 0 auto;">
 ]
 
 ---
@@ -48,7 +48,7 @@ Spring is a comprehensive Java framework used to build robust, scalable backend 
 
 .center[
   <img src="./images/Spring.png" alt="Spring"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:1rem auto 0 auto;">
 ]
 
 ---
@@ -59,7 +59,7 @@ Kafka is a distributed message broker designed for high-throughput, fault-tolera
 
 .center[
   <img src="./images/MessageBroker.png" alt="MessageBroker"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:1rem auto 0 auto;">
 ]
 
 ---
@@ -79,5 +79,5 @@ Spring Boot Mail provides built-in support for sending emails using Java Mail Se
 
 .center[
   <img src="./images/JavaMail.png" alt="JavaMail"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:90%; max-height:40vh; width:auto; height:auto; object-fit:contain; display:block; margin:1rem auto 0 auto;">
 ]
