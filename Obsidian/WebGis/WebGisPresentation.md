@@ -31,7 +31,7 @@ class: center, middle
 
 ---
 
-# What is microservice?
+# What is а microservice?
 
 A microservice is an architectural style where an application is built as a collection of small, independent services. Each service is responsible for a specific business capability and communicates with others via well-defined APIs. This approach improves scalability, fault isolation, and independent deployment.
 
@@ -42,7 +42,7 @@ A microservice is an architectural style where an application is built as a coll
 
 ---
 
-# Microservice vs Monolith
+# Microservice VS Monolith
 
 A monolithic application packages all functionality into a single deployable unit, making it simple to start but hard to scale and maintain over time. In contrast, microservices separate concerns into independent services, enabling better scalability and team autonomy. The trade-off is increased operational and architectural complexity.
 
@@ -53,7 +53,7 @@ A monolithic application packages all functionality into a single deployable uni
 
 ---
 
-# Spring (Java backend framework)
+# What is Spring?
 
 Spring is a comprehensive Java framework used to build robust, scalable backend applications. It provides dependency injection, security, data access, and REST API support out of the box. Spring Boot further simplifies configuration and accelerates development.
 
@@ -64,7 +64,7 @@ Spring is a comprehensive Java framework used to build robust, scalable backend 
 
 ---
 
-# Message broker (Kafka)
+# What is a message broker?
 
 Kafka is a distributed message broker designed for high-throughput, fault-tolerant data streaming. It enables asynchronous communication between microservices, reducing tight coupling. This makes the system more resilient and scalable under load.
 
