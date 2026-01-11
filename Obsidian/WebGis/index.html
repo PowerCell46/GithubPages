@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peter Gerdzhikov</title>
+    <link href="../../web/images/favicon.png" rel="icon" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Noto+Sans:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"
+    />
+    <link rel="stylesheet" type="text/css" href="../../web/css/typo.css" />
+    <link rel="stylesheet" type="text/css" href="../../web/css/font-nord.css" />
+    <link rel="stylesheet" type="text/css" href="../../web/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" href="../../web/css/style.css" />
+  </head>
+  <body>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      // Initialize remark.js slideshow.
+      // - Loads slides from the Markdown file at sourceUrl (relative path).
+      // - ratio sets the slide aspect ratio (width:height).
+      // - highlightStyle selects the highlight.js theme name
+      // - highlightLines enables line-highlighting in code blocks.
+      // - countIncrementalSlides determines whether incremental fragments count as separate slides.
+      const slideshow = remark.create({
+        sourceUrl: "WebGisPresentation.md",
+        ratio: "16:9",
+        highlightStyle: "magula",
+        highlightLines: true,
+        countIncrementalSlides: false
+      });
+
+      // 'slideshow' is the presentation API you can use from the console
+      // (e.g., slideshow.gotoSlide(index), slideshow.getCurrentSlideIndex(), etc.).
+    </script>
+  </body>
+</html>
