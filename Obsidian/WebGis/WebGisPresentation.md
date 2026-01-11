@@ -4,7 +4,7 @@ class: center, middle
 
 .center[
   <img src="./images/twitterLogo.png" alt="Twitter Logo"
-       style="max-width:55%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:55%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
 ]
 
 *Peter Gerdzhikov*
@@ -15,7 +15,7 @@ class: center, middle
 
 .center[
   <img src="./images/architecture.png" alt="Architecture"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
 ]
 
 ---
@@ -26,7 +26,7 @@ A microservice is an architectural style where an application is built as a coll
 
 .center[
   <img src="./images/Microservice.png" alt="Microservice"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
 ]
 
 ---
@@ -36,8 +36,8 @@ A microservice is an architectural style where an application is built as a coll
 A monolithic application packages all functionality into a single deployable unit, making it simple to start but hard to scale and maintain over time. In contrast, microservices separate concerns into independent services, enabling better scalability and team autonomy. The trade-off is increased operational and architectural complexity.
 
 .center[
-  <img src="./images/monolithVsMsvc.png" alt="Monolith vs Microservice"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+  <img src="./images/MonolithVsMsvc.png" alt="Monolith vs Microservice"
+       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
 ]
 
 ---
@@ -59,7 +59,7 @@ Kafka is a distributed message broker designed for high-throughput, fault-tolera
 
 .center[
   <img src="./images/MessageBroker.png" alt="MessageBroker"
-       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto;">
+       style="max-width:80%; max-height:60vh; width:auto; height:auto; display:block; margin:0 auto 2rem auto;">
 ]
 
 ---
