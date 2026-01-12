@@ -41,3 +41,23 @@ class: center, middle
 * **Единен източник на истина:** Данните се обновяват централизирано в ArcGIS Online.
 * **Автоматизация:** Пътят от терена до уеб приложението е максимално съкратен.
 * **User Experience:** Experience Builder позволява персонализиране на интерфейса спрямо нуждите на потребителя.то
+
+---
+
+![[holeSizes.png]]
+
+---
+
+![[dangerLevels.png]]
+
+---
+
+![[roadTypes.png]]
+
+---
+
+![[lightPoleWorkingStatus.png]]
+
+---
+
+![[lightpolesConditionStatuses.png]]
