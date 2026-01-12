@@ -55,7 +55,7 @@ class: center, middle
 ]
 
 ```python
-hole_sizes_data = { "Small / Малка": 5, "Medium / Средна": 5, "Large / Голяма": 3 }
+hole_sizes_data = { "Малка": 5, "Средна": 5, "Голяма": 3 }
 
 hole_types = [key for key in hole_sizes_data.keys()]
 hole_values = np.array([val for val in hole_sizes_data.values()])
@@ -65,14 +65,6 @@ fig, ax = plt.subplots(figsize=(8, 5))
 colors = [COLORS['success'], COLORS['warning'], COLORS['danger']]
 bars = ax.bar(hole_types, hole_values, color=colors, edgecolor='white', linewidth=1.5)
 
-ax.set_xlabel('Категория размер', fontsize=12)
-ax.set_ylabel('Брой случаи', fontsize=12)
-ax.set_title('Разпределение на дупките по размер', pad=15)
-ax.set_ylim(0, max(hole_values) + 1.5)
-
-ax.annotate(f'Общо: {total_holes} дупки', xy=(0.98, 0.95), xycoords='axes fraction', ha='right', va='top', fontsize=10, style='italic', bbox=dict(boxstyle='round,pad=0.3', facecolor='#ECF0F1', edgecolor='none'))
-
-plt.tight_layout()
 plt.show()
 ```
 
@@ -84,27 +76,16 @@ plt.show()
 ]
 
 ```python
-danger_levels_data = { "Много ниско": 5, "Ниско": 3, 
-	"Средно": 3, "Високо": 1, "Много високо": 1 }
+danger_levels_data = { "Много ниско": 5, "Ниско": 3, "Средно": 3, ... }
 
 danger_types = [key for key in danger_levels_data.keys()]
 danger_values = np.array([val for val in danger_levels_data.values()])
 total_danger = danger_values.sum()
-
 danger_colors = ['#27AE60', '#2ECC71', '#F1C40F', '#E67E22', '#E74C3C']
 
 fig, ax = plt.subplots(figsize=(10, 5))
 bars = ax.bar(danger_types, danger_values, color=danger_colors, edgecolor='white', linewidth=1.5)
 
-ax.set_xlabel('Ниво на опасност', fontsize=12)
-ax.set_ylabel('Брой случаи', fontsize=12)
-ax.set_title('Класификация на инфраструктурни опасности по ниво', pad=15)
-ax.set_ylim(0, max(danger_values) + 1.2)
-
-low_risk = ((danger_values[0] + danger_values[1]) / total_danger) * 100
-ax.annotate(f'{low_risk:.1f}% Low Risk Cases', xy=(0.02, 0.95), xycoords='axes fraction', ha='left', va='top', fontsize=10, style='italic', color=COLORS['success'], bbox=dict(boxstyle='round,pad=0.3', facecolor='#E8F8F5', edgecolor='none'))
-
-plt.tight_layout()
 plt.show()
 ```
 
@@ -116,8 +97,7 @@ plt.show()
 ]
 
 ```python
-road_types_data = { "Главен път": 14, "Второстепенен път": 0,
-    "Булевард": 0, "Улица": 0 }
+road_types_data = { "Главен път": 14, "Второстепенен път": 0, ... }
 
 road_names = [key for key in road_types_data.keys()]
 road_values = np.array([val for val in road_types_data.values()])
@@ -127,14 +107,6 @@ fig, ax = plt.subplots(figsize=(10, 5))
 colors = [COLORS['accent'] if v > 0 else COLORS['light'] for v in road_values]
 bars = ax.barh(road_names, road_values, color=colors, edgecolor='white', linewidth=1.5, height=0.6)
 
-ax.set_xlabel('Брой случаи', fontsize=12)
-ax.set_ylabel('Класификация на пътя', fontsize=12)
-ax.set_title('Инфраструктурни проблеми по тип път', pad=15)
-ax.set_xlim(0, max(road_values) + 3)
-
-ax.annotate(f'100% on Main Roads\n(n={total_roads})', xy=(0.98, 0.95), xycoords='axes fraction', ha='right', va='top', fontsize=10, style='italic', bbox=dict(boxstyle='round,pad=0.3', facecolor='#EBF5FB', edgecolor='none'))
-
-plt.tight_layout()
 plt.show()
 ```
 
@@ -146,11 +118,7 @@ plt.show()
 ]
 
 ```python
-lightpole_working_statuses_data = {
-    "Не работи": 10,
-    "Работи": 7,
-    "Частично работи": 2
-}
+lightpole_working_statuses_data = { "Не работи": 10, "Работи": 7, ... }
 
 lightpole_statuses = [key for key in lightpole_working_statuses_data.keys()]
 lightpole_values = np.array([val for val in lightpole_working_statuses_data.values()])
@@ -161,15 +129,6 @@ status_colors = [COLORS['danger'], COLORS['success'], COLORS['warning']]
 fig, ax = plt.subplots(figsize=(10, 5))
 bars = ax.barh(lightpole_statuses, lightpole_values, color=status_colors, edgecolor='white', linewidth=1.5, height=0.6)
 
-ax.set_xlabel('Брой осветителни стълбове', fontsize=12)
-ax.set_ylabel('Оперативен статус', fontsize=12)
-ax.set_title('Оперативен статус на уличното осветление', pad=15)
-ax.set_xlim(0, max(lightpole_values) + 3)
-
-non_functional = ((lightpole_values[0]) / total_poles) * 100
-ax.annotate(f'{non_functional:.1f}% изискват внимание', xy=(0.98, 0.05), xycoords='axes fraction', ha='right', va='bottom', fontsize=10, style='italic', color=COLORS['danger'], bbox=dict(boxstyle='round,pad=0.3', facecolor='#FDEDEC', edgecolor='none'))
-
-plt.tight_layout()
 plt.show()
 ```
 
@@ -192,14 +151,5 @@ condition_colors = [COLORS['success'], COLORS['warning'], COLORS['danger']]
 fig, ax = plt.subplots(figsize=(8, 5))
 bars = ax.bar(pole_condition_types, pole_condition_values, color=condition_colors, edgecolor='white', linewidth=1.5)
 
-ax.set_xlabel('Физическо състояние', fontsize=12)
-ax.set_ylabel('Брой стълбове', fontsize=12)
-ax.set_title('Оценка на физическото състояние на стълбовете', pad=15)
-ax.set_ylim(0, max(pole_condition_values) + 3)
-
-good_condition = (pole_condition_values[0] / total_condition) * 100
-ax.annotate(f'{good_condition:.1f}% в добро състояние', xy=(0.98, 0.95), xycoords='axes fraction', ha='right', va='top', fontsize=10, style='italic', color=COLORS['success'], bbox=dict(boxstyle='round,pad=0.3', facecolor='#E8F8F5', edgecolor='none'))
-
-plt.tight_layout()
 plt.show()
 ```
