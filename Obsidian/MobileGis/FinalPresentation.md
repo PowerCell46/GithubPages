@@ -44,20 +44,35 @@ class: center, middle
 
 ---
 
-![[holeSizes.png]]
+.center[
+  <img src="./images/holeSizes.png" alt="Hole sizes"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
 
 ---
 
-![[dangerLevels.png]]
+.center[
+  <img src="./images/dangerLevels.png" alt="Danger levels"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
 
 ---
 
-![[roadTypes.png]]
+.center[
+  <img src="./images/roadTypes.png" alt="Road types"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
 
 ---
 
-![[lightPoleWorkingStatus.png]]
+.center[
+  <img src="./images/lightPoleWorkingStatus.png" alt="Lightpoles working statuses"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
 
 ---
 
-![[lightpolesConditionStatuses.png]]
+.center[
+  <img src="./images/lightpolesConditionStatuses.png" alt="Lightpoles condition statuses"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
