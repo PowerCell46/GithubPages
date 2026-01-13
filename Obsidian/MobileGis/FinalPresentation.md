@@ -15,7 +15,7 @@ class: center, middle
 
 .center[
   <img src="./images/PerplexityMobileGis.png" alt="Perplexity mobile GIS"
-       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Perplexity AI***
 ]
 
@@ -47,7 +47,7 @@ class: center, middle
 ## Предимства на използвания работен процес
 * **Единен източник на истина:**  (Single source of truth) Данните се обновяват централизирано в ArcGIS Online.
 * **Автоматизация:** Пътят от терена до уеб приложението е максимално съкратен.
-* **User Experience:** Experience Builder позволява персонализиране на интерфейса спрямо нуждите на потребителя.то
+* **User Experience:** Experience Builder позволява персонализиране на интерфейса спрямо нуждите на потребителя.
 
 ---
 
@@ -164,6 +164,6 @@ plt.show()
 
 .center[
   <img src="./images/Seedream.png" alt="Seadream"
-       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:40%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Seedream 4.5 AI****
 ]
