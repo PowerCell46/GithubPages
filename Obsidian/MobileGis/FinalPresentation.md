@@ -27,7 +27,7 @@ class: center, middle
 
 .center[
   <img src="./images/PreparingData.png" alt="Preparing data"
-       style="max-width:25%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:20%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Nano Banana 3***
 ]
 
@@ -62,7 +62,7 @@ class: center, middle
 
 .center[
   <img src="./images/Visualization.png" alt="Vizualization"
-       style="max-width:30%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:22.5%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Qwen***
 ]
 
