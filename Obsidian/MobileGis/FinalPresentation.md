@@ -27,7 +27,7 @@ class: center, middle
 
 .center[
   <img src="./images/PreparingData.png" alt="Preparing data"
-       style="max-width:35%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:25%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Nano Banana 3***
 ]
 
@@ -50,7 +50,7 @@ class: center, middle
 
 .center[
   <img src="./images/TerrainWork.png" alt="Terrain work"
-       style="max-width:40%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:30%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Screenshot from the working process***
 ]
 
@@ -62,7 +62,7 @@ class: center, middle
 
 .center[
   <img src="./images/Visualization.png" alt="Vizualization"
-       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:30%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Qwen***
 ]
 
