@@ -166,8 +166,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "eabf439448652cd9",
+  "active": "715dc074b6589d87",
   "lastOpenFiles": [
+    "MobileGis/images/Visualization.png",
     "MobileGis/images/ConfigureWebMap.png",
     "MobileGis/images/DbSharding.png",
     "MobileGis/images/PreparingData.png",
@@ -180,7 +181,6 @@
     "MobileGis/images/lightpoleWorkingStatuses.png",
     "MobileGis/images/Seedream.png",
     "MobileGis/images/PerplexityMobileGis.png",
-    "MobileGis/images/lightpolesConditionStatuses.png",
     "WebGis/WebGisPresentation.md",
     "MobileGis/images",
     "MobileGis/New folder",

@@ -27,7 +27,7 @@ class: center, middle
 
 .center[
   <img src="./images/PreparingData.png" alt="Preparing data"
-       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:40%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Nano Banana 3***
 ]
 
@@ -39,7 +39,7 @@ class: center, middle
 .center[
   <img src="./images/ConfigureWebMap.png" alt="Configure web map"
        style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
-   ***Microsoft copilot***
+   ***Microsoft Copilot***
 ]
 
 ---
@@ -50,7 +50,8 @@ class: center, middle
 
 .center[
   <img src="./images/TerrainWork.png" alt="Terrain work"
-       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+   ***Screenshot from the working process***
 ]
 
 ---
@@ -58,6 +59,12 @@ class: center, middle
 * **Интерактивен дизайн:** Превръщане на събраните данни в уеб приложение, скалируемо за десктоп и мобилни устройства.
 * **Функционалност:** Добавяне на най-подходящите уиджети, според целите на уеб приложението.
 * **Достъпност:** Възможност за споделяне на крайния резултат с крайни потребители или вземащи решения лица.
+
+.center[
+  <img src="./images/Visualization.png" alt="Vizualization"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+   ***Qwen***
+]
 
 ---
 ## Предимства на използвания работен процес
