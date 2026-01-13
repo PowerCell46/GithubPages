@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "402db800c7777bcf",
+        "id": "ea69457e7180c42c",
         "type": "tabs",
         "children": [
           {
-            "id": "aa4e06349fdf86ad",
+            "id": "eabf439448652cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,23 +166,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "aa4e06349fdf86ad",
+  "active": "eabf439448652cd9",
   "lastOpenFiles": [
+    "MobileGis/images/ConfigureWebMap.png",
+    "MobileGis/images/DbSharding.png",
+    "MobileGis/images/PreparingData.png",
+    "MobileGis/images/TerrainWork.png",
+    "MobileGis/FinalPresentation.md",
+    "MobileGis/images/RoadTypes.png",
+    "MobileGis/images/RoadTypes.png",
+    "MobileGis/images/roadTypes.png",
     "MobileGis/MobileGisNotebook.ipynb",
     "MobileGis/images/lightpoleWorkingStatuses.png",
     "MobileGis/images/Seedream.png",
-    "MobileGis/FinalPresentation.md",
     "MobileGis/images/PerplexityMobileGis.png",
     "MobileGis/images/lightpolesConditionStatuses.png",
-    "MobileGis/images/roadTypes.png",
-    "MobileGis/images/dangerLevels.png",
-    "MobileGis/images/holeSizes.png",
     "WebGis/WebGisPresentation.md",
-    "MobileGis/images/TitleImage.png",
     "MobileGis/images",
     "MobileGis/New folder",
-    "TitleImage.png",
-    "Pasted image 20260112221021.png",
     "MobileGis/index.html",
     "MobileGis",
     "AI/slides.md",
@@ -191,7 +192,6 @@
     "WebGis",
     "AI/images",
     "AI/index.html",
-    "AI",
     "Welcome.md"
   ]
 }

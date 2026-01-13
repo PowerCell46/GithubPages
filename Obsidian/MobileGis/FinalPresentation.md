@@ -21,26 +21,42 @@ class: center, middle
 
 ---
 ## 1. Подготовка на данните (ArcGIS Online)
-* **Създаване на слоеве (Layers):** Дефиниране на векторни слоеве (точки, линии, полигони) според нуждите на проекта.
+* **Създаване на слоеве (Layers):** Дефиниране на векторни слоеве (точки, линии, полигони) според нуждите на проекта. Създадохме точкови слоеве за дупки и улични лампи.
 * **Структуриране на атрибути:** Добавяне на специфични колони в атрибутивната таблица за събиране (и бъдещо попълване) на метаданни.
 * **Домейни и списъци:** Настройване на падащи менюта за по-бързо въвеждане на информация на терен.
+
+.center[
+  <img src="./images/PreparingData.png" alt="Preparing data"
+       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+   ***Nano Banana 3***
+]
 
 ---
 ## 2. Конфигуриране на Web Map
 * **Интеграция:** Обединяване на всички подготвени слоеве в обща уеб карта.
 * **Стилове и симвология:** Настройване на визуалното представяне на обектите за по-добра четивност.
-* **Офлайн настройки:** Подготовка на картата за работа в зони без достъп до интернет.
+
+.center[
+  <img src="./images/ConfigureWebMap.png" alt="Configure web map"
+       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+   ***Microsoft copilot***
+]
 
 ---
 ## 3. Работа на терен (Field Collection)
-* **Мобилен достъп:** Използване на ArcGIS Field Maps за достъп до уеб картата през смартфон или таблет.
+* **Мобилен достъп:** Използване на ArcGIS Field Maps за достъп до уеб картата през смартфон устройство.
 * **Заснемане в реално време:** Геопозициониране и попълване на атрибутните данни за всеки обект директно на място.
 * **Мултимедия:** Прикачване на снимки и документи към събраните геоданни.
+
+.center[
+  <img src="./images/TerrainWork.png" alt="Terrain work"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
 
 ---
 ## 4. Визуализация: ArcGIS Experience Builder
 * **Интерактивен дизайн:** Превръщане на събраните данни в уеб приложение, скалируемо за десктоп и мобилни устройства.
-* **Функционалност:** Добавяне на уиджети за търсене, филтриране и анализ на резултатите.
+* **Функционалност:** Добавяне на най-подходящите уиджети, според целите на уеб приложението.
 * **Достъпност:** Възможност за споделяне на крайния резултат с крайни потребители или вземащи решения лица.
 
 ---
@@ -48,6 +64,12 @@ class: center, middle
 * **Единен източник на истина:**  (Single source of truth) Данните се обновяват централизирано в ArcGIS Online.
 * **Автоматизация:** Пътят от терена до уеб приложението е максимално съкратен.
 * **User Experience:** Experience Builder позволява персонализиране на интерфейса спрямо нуждите на потребителя.
+
+.center[
+  <img src="./images/DbSharding.png" alt="Database sharding"
+       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+]
+
 
 ---
 
@@ -99,7 +121,7 @@ plt.show()
 ]
 
 ```python
-road_types_gathered_data = { "Главен път": 14, "Второстепенен път": 0, ... }
+road_types_gathered_data = { "Улица": 14, "Второстепенен път": 0, ... }
 
 road_names = [key for key in road_types_gathered_data.keys()]
 road_values = np.array([value for value in road_types_gathered_data.values()])
@@ -165,5 +187,5 @@ plt.show()
 .center[
   <img src="./images/Seedream.png" alt="Seadream"
        style="max-width:35%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
-   ***Seedream 4.5 AI****
+   ***Seedream 4.5 AI***
 ]
