@@ -27,7 +27,7 @@ class: center, middle
 
 .center[
   <img src="./images/PreparingData.png" alt="Preparing data"
-       style="max-width:40%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:35%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Nano Banana 3***
 ]
 
@@ -43,14 +43,14 @@ class: center, middle
 ]
 
 ---
-## 3. Работа на терен (Field Collection)
+## 3. Работа на терен (Field collection)
 * **Мобилен достъп:** Използване на ArcGIS Field Maps за достъп до уеб картата през смартфон устройство.
 * **Заснемане в реално време:** Геопозициониране и попълване на атрибутните данни за всеки обект директно на място.
 * **Мултимедия:** Прикачване на снимки и документи към събраните геоданни.
 
 .center[
   <img src="./images/TerrainWork.png" alt="Terrain work"
-       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:40%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Screenshot from the working process***
 ]
 
@@ -62,7 +62,7 @@ class: center, middle
 
 .center[
   <img src="./images/Visualization.png" alt="Vizualization"
-       style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:45%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Qwen***
 ]
 
@@ -76,7 +76,6 @@ class: center, middle
   <img src="./images/DbSharding.png" alt="Database sharding"
        style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
-
 
 ---
 
@@ -196,3 +195,4 @@ plt.show()
        style="max-width:35%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
    ***Seedream 4.5 AI***
 ]
+d
