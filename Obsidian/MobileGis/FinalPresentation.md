@@ -55,15 +55,15 @@ class: center, middle
 ]
 
 ```python
-hole_sizes_data = { "Малка": 5, "Средна": 5, "Голяма": 3 }
+hole_sizes_gathered_data = { "Малка": 5, "Средна": 5, "Голяма": 3 }
 
-hole_types = [key for key in hole_sizes_data.keys()]
-hole_values = np.array([val for val in hole_sizes_data.values()])
-total_holes = hole_values.sum()
+hole_type_names = [key for key in hole_sizes_gathered_data.keys()]
+hole_values = np.array([value for value in hole_sizes_gathered_data.values()])
+total_holes = hole_sizes_gathered_data.sum()
 
 fig, ax = plt.subplots(figsize=(8, 5))
 colors = [COLORS['success'], COLORS['warning'], COLORS['danger']]
-bars = ax.bar(hole_types, hole_values, color=colors, edgecolor='white', linewidth=1.5)
+bars = ax.bar(hole_type_names, hole_values, color=colors)
 
 plt.show()
 ```
@@ -76,15 +76,15 @@ plt.show()
 ]
 
 ```python
-danger_levels_data = { "Много ниско": 5, "Ниско": 3, "Средно": 3, ... }
+danger_levels_gathered_data = { "Много ниско": 5, "Ниско": 3, "Средно": 3, ... }
 
-danger_types = [key for key in danger_levels_data.keys()]
-danger_values = np.array([val for val in danger_levels_data.values()])
+danger_type_names = [key for key in danger_levels_gathered_data.keys()]
+danger_values = np.array([value for value in danger_levels_gathered_data.values()])
 total_danger = danger_values.sum()
 danger_colors = ['#27AE60', '#2ECC71', '#F1C40F', '#E67E22', '#E74C3C']
 
 fig, ax = plt.subplots(figsize=(10, 5))
-bars = ax.bar(danger_types, danger_values, color=danger_colors, edgecolor='white', linewidth=1.5)
+bars = ax.bar(danger_type_names, danger_values, color=danger_colors)
 
 plt.show()
 ```
@@ -97,15 +97,15 @@ plt.show()
 ]
 
 ```python
-road_types_data = { "Главен път": 14, "Второстепенен път": 0, ... }
+road_types_gathered_data = { "Главен път": 14, "Второстепенен път": 0, ... }
 
-road_names = [key for key in road_types_data.keys()]
-road_values = np.array([val for val in road_types_data.values()])
+road_names = [key for key in road_types_gathered_data.keys()]
+road_values = np.array([value for value in road_types_gathered_data.values()])
 total_roads = road_values.sum()
 
 fig, ax = plt.subplots(figsize=(10, 5))
 colors = [COLORS['accent'] if v > 0 else COLORS['light'] for v in road_values]
-bars = ax.barh(road_names, road_values, color=colors, edgecolor='white', linewidth=1.5, height=0.6)
+bars = ax.barh(road_names, road_values, color=colors, edgecolor='white')
 
 plt.show()
 ```
@@ -113,21 +113,21 @@ plt.show()
 ---
 
 .center[
-  <img src="./images/lightPoleWorkingStatus.png" alt="Lightpoles working statuses"
+  <img src="./images/lightpoleWorkingStatuses.png" alt="Lightpoles working statuses"
        style="max-width:55%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
 ```python
-lightpole_working_statuses_data = { "Не работи": 10, "Работи": 7, ... }
+lightpole_working_statuses_gathered_data = { "Не работи": 10, "Работи": 7, ... }
 
-lightpole_statuses = [key for key in lightpole_working_statuses_data.keys()]
-lightpole_values = np.array([val for val in lightpole_working_statuses_data.values()])
+lp_status_names = [k for k in lightpole_working_statuses_gathered_data.keys()]
+lp_values = np.array([v for v in lightpole_working_statuses_gathered_data.values()])
 total_poles = lightpole_values.sum()
 
 status_colors = [COLORS['danger'], COLORS['success'], COLORS['warning']]
 
 fig, ax = plt.subplots(figsize=(10, 5))
-bars = ax.barh(lightpole_statuses, lightpole_values, color=status_colors, edgecolor='white', linewidth=1.5, height=0.6)
+bars = ax.barh(lp_status_names, lp_values, color=status_colors)
 
 plt.show()
 ```
@@ -140,16 +140,24 @@ plt.show()
 ]
 
 ```python
-pole_conditions_data = { "Добро": 16, "Средно": 2, "Лошо": 0 }
+pole_conditions_gathered_data = { "Добро": 16, "Средно": 2, "Лошо": 0 }
 
-pole_condition_types = list(pole_conditions_data.keys())
-pole_condition_values = np.array(list(pole_conditions_data.values()))
-total_condition = pole_condition_values.sum()
+pole_condition_type_names = list(pole_conditions_gathered_data.keys())
+pole_condition_values = np.array(list(pole_conditions_gathered_data.values()))
+total_conditions = pole_condition_values.sum()
 
 condition_colors = [COLORS['success'], COLORS['warning'], COLORS['danger']]
 
 fig, ax = plt.subplots(figsize=(8, 5))
-bars = ax.bar(pole_condition_types, pole_condition_values, color=condition_colors, edgecolor='white', linewidth=1.5)
+bars = ax.bar(pole_condition_type_names, pole_condition_values, color=condition_colors, edgecolor='white', linewidth=1.5)
 
 plt.show()
 ```
+
+---
+# Изготвени материали
+
+-  [Уеб карта (приложение)](https://arcg.is/0G5q9D1)
+- [IPython notebook](https://github.com/PowerCell46/GithubPages/blob/main/Obsidian/MobileGis/MobileGisNotebook.ipynb)
+
+![[Seedream.png]]

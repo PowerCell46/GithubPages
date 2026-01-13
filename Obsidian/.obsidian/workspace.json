@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "32e22018bf4c8823",
+        "id": "402db800c7777bcf",
         "type": "tabs",
         "children": [
           {
-            "id": "26cc29c6aa12793c",
+            "id": "aa4e06349fdf86ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,14 +166,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "715dc074b6589d87",
+  "active": "aa4e06349fdf86ad",
   "lastOpenFiles": [
+    "MobileGis/images/lightpoleWorkingStatuses.png",
+    "MobileGis/images/Seedream.png",
+    "MobileGis/FinalPresentation.md",
     "MobileGis/images/PerplexityMobileGis.png",
     "MobileGis/images/lightpolesConditionStatuses.png",
-    "MobileGis/images/lightPoleWorkingStatus.png",
     "MobileGis/images/roadTypes.png",
     "MobileGis/images/dangerLevels.png",
-    "MobileGis/FinalPresentation.md",
     "MobileGis/images/holeSizes.png",
     "WebGis/WebGisPresentation.md",
     "MobileGis/images/TitleImage.png",
@@ -184,8 +185,6 @@
     "MobileGis/index.html",
     "MobileGis",
     "AI/slides.md",
-    "WebGis/images/JavaMail.png",
-    "JavaMail.png",
     "WebGis/index.html",
     "WebGis/images",
     "WebGis",
