@@ -168,6 +168,8 @@
   },
   "active": "715dc074b6589d87",
   "lastOpenFiles": [
+    "SpatialAnalysisAndModeling/SatelliteImageClassification.ipynb",
+    "SpatialAnalysisAndModeling",
     "MobileGis/images/Visualization.png",
     "MobileGis/images/ConfigureWebMap.png",
     "MobileGis/images/DbSharding.png",
@@ -180,7 +182,6 @@
     "MobileGis/MobileGisNotebook.ipynb",
     "MobileGis/images/lightpoleWorkingStatuses.png",
     "MobileGis/images/Seedream.png",
-    "MobileGis/images/PerplexityMobileGis.png",
     "WebGis/WebGisPresentation.md",
     "MobileGis/images",
     "MobileGis/New folder",
@@ -191,7 +192,6 @@
     "WebGis/images",
     "WebGis",
     "AI/images",
-    "AI/index.html",
     "Welcome.md"
   ]
 }
