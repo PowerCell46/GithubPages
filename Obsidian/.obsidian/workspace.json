@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MobileGis/FinalPresentation.md",
+                "file": "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FinalPresentation"
+              "title": "SpatialAnalysisAndModelingPresentation"
             }
           }
         ]
@@ -168,20 +168,25 @@
   },
   "active": "715dc074b6589d87",
   "lastOpenFiles": [
+    "SpatialAnalysisAndModeling/images/TitleSlideImage.png",
+    "SpatialAnalysisAndModeling/images/generated-image.png",
+    "MobileGis/FinalPresentation.md",
+    "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
+    "SpatialAnalysisAndModeling/index.html",
+    "SpatialAnalysisAndModeling/images/twitterLogo.png",
+    "SpatialAnalysisAndModeling/images/Spring.png",
+    "SpatialAnalysisAndModeling/images/MonolithVsMsvc.png",
+    "SpatialAnalysisAndModeling/images/Microservice.png",
+    "SpatialAnalysisAndModeling/images/MessageBroker.png",
+    "SpatialAnalysisAndModeling/images/JavaMail.png",
+    "SpatialAnalysisAndModeling/images/architecture.png",
+    "SpatialAnalysisAndModeling/images",
+    "SpatialAnalysisAndModeling/WebGisPresentation.md",
     "SpatialAnalysisAndModeling/SatelliteImageClassification.ipynb",
     "SpatialAnalysisAndModeling",
     "MobileGis/images/Visualization.png",
     "MobileGis/images/ConfigureWebMap.png",
-    "MobileGis/images/DbSharding.png",
-    "MobileGis/images/PreparingData.png",
-    "MobileGis/images/TerrainWork.png",
-    "MobileGis/FinalPresentation.md",
-    "MobileGis/images/RoadTypes.png",
-    "MobileGis/images/RoadTypes.png",
-    "MobileGis/images/roadTypes.png",
     "MobileGis/MobileGisNotebook.ipynb",
-    "MobileGis/images/lightpoleWorkingStatuses.png",
-    "MobileGis/images/Seedream.png",
     "WebGis/WebGisPresentation.md",
     "MobileGis/images",
     "MobileGis/New folder",
@@ -189,9 +194,6 @@
     "MobileGis",
     "AI/slides.md",
     "WebGis/index.html",
-    "WebGis/images",
-    "WebGis",
-    "AI/images",
     "Welcome.md"
   ]
 }
