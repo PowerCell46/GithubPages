@@ -71,7 +71,7 @@ LLM models, AI agents, etc.
 #### Основната идея
 - Събираме **голям брой елементарни компоненти** (неврони)
 - Всеки неврон получава входове, прилага претегляне и активация
-- <span style="color:rgb(0, 176, 80)">Когато комбинираме хиляди такива елементи, можем да научим <b>много сложни</b> зависимости между входове и изходи</span>
+- Когато комбинираме хиляди такива елементи, можем да научим <b>много сложни</b> зависимости между входове и изходи
 
 #### Биологична аналогия
 - Биологичен неврон получава сигнали (дендрити), обработва ги и изпраща нов сигнал 
@@ -81,7 +81,7 @@ LLM models, AI agents, etc.
 
 .center[
   <img src="./images/ArtificialNeuralNetwork.png" alt="Programming vs AI"
-       style="max-width:75%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:85%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
 ---
@@ -100,12 +100,14 @@ LLM models, AI agents, etc.
 
 ---
 
+# Weights and Biases
+
 .center[
   <img src="./images/neuron.png" alt="Programming vs AI"
        style="max-width:75%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
-----
+---
 
 # Обучение
 
@@ -137,19 +139,19 @@ LLM models, AI agents, etc.
 
 .center[
   <img src="./images/CNN.png" alt="CNN"
-       style="max-width:60%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:75%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
 
 ---
 
 # Приложение на CNN в ГИС
 
-#### Защо CNN е подходящ за геопространствени данни
+#### Защо CNN е подходящ за геопространствени данни?
 - Растерни формати (GeoTIFF, COG) са природно двумерни матрици
 - Локални признаци (текстури, ръбове) са критични за класификация земно покритие
 - Модели обучени на един регион могат да работят на други региони
 
-#### Ключови концепции
+#### Ключови концепции:
 - **Локални рецептивни полета:** Всеки неврон „вижда" само малък прозорец от изображението (например 3×3 пиксела)
 - **Translation invariance:** Обект (сграда) се разпознава еднакво независимо от позицията
 - **Йерархия на признаците:** Ранни слоеве → ръбове, средни → текстури, дълбоки → цели обекти
@@ -160,13 +162,13 @@ LLM models, AI agents, etc.
 
 #### Практическо приложение
 - Класификация на сателитни 32×32 px patches в категории:
-  - Град; Гора; Вода; Селскостопанска земя
+  - Град | Гора | Вода | Селскостопанска земя
 - Всеки patch преминава през CNN и получава клас
-
-#### Защо това работи
+	
+#### Защо това работи?
 - При обработка на сателитни сцени обектите са случайно разположени
 - CNN обработва всяка локация еднакво (translation invariance)
-- Улавя локални текстури и контрасти (граница град/поле, мрежа от дърветата)
+- Улавя локални текстури и контрасти (граница град/поле, мрежа от дървета)
 
 
 ---
@@ -232,10 +234,10 @@ LLM models, AI agents, etc.
 - **Датасет:** `eurosat\rgb`
 - **Метод:** обучаване на модел за класификация
 
-#### Технологичен стек
-- **TensorFlow / Keras:** Framework за дълбоко обучение
+#### Tech stack
+- **TensorFlow / Keras:** Framework за deep learning
 - **Python библиотеки:**
-- scikit-learn; pandas; numpy; matplotlib; rasterio; hugging-face
+	- scikit-learn | pandas | numpy | matplotlib | rasterio | hugging-face
 
 ---
 
@@ -243,5 +245,5 @@ LLM models, AI agents, etc.
 
 .center[
   <img src="./images/HumansVsAi.png" alt="CNN"
-       style="max-width:60%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
+       style="max-width:75%; max-height:45vh; width:auto; height:auto; object-fit:contain; display:block; margin:0 auto;">
 ]
