@@ -166,12 +166,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "715dc074b6589d87",
+  "active": "eabf439448652cd9",
   "lastOpenFiles": [
+    "SpatialAnalysisAndModeling/images/OCR.png",
+    "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
     "SpatialAnalysisAndModeling/images/TitleSlideImage.png",
     "SpatialAnalysisAndModeling/images/generated-image.png",
     "MobileGis/FinalPresentation.md",
-    "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
     "SpatialAnalysisAndModeling/index.html",
     "SpatialAnalysisAndModeling/images/twitterLogo.png",
     "SpatialAnalysisAndModeling/images/Spring.png",
@@ -184,8 +185,6 @@
     "SpatialAnalysisAndModeling/WebGisPresentation.md",
     "SpatialAnalysisAndModeling/SatelliteImageClassification.ipynb",
     "SpatialAnalysisAndModeling",
-    "MobileGis/images/Visualization.png",
-    "MobileGis/images/ConfigureWebMap.png",
     "MobileGis/MobileGisNotebook.ipynb",
     "WebGis/WebGisPresentation.md",
     "MobileGis/images",
