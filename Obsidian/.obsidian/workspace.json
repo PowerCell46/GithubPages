@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea69457e7180c42c",
+        "id": "e3869e74c7c8f3f2",
         "type": "tabs",
         "children": [
           {
-            "id": "eabf439448652cd9",
+            "id": "43ae473596774ddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,22 +166,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "eabf439448652cd9",
+  "active": "43ae473596774ddb",
   "lastOpenFiles": [
-    "SpatialAnalysisAndModeling/images/HumansVsAi.png",
     "SpatialAnalysisAndModeling/images/CNN.png",
+    "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
+    "SpatialAnalysisAndModeling/images/HumansVsAi.png",
     "SpatialAnalysisAndModeling/images/backpropagation.png",
     "SpatialAnalysisAndModeling/images/neuron.png",
     "SpatialAnalysisAndModeling/images/ArtificialNeuralNetwork.png",
     "SpatialAnalysisAndModeling/images/ANN.png",
     "SpatialAnalysisAndModeling/images/OCR.png",
-    "SpatialAnalysisAndModeling/SpatialAnalysisAndModelingPresentation.md",
     "SpatialAnalysisAndModeling/images/TitleSlideImage.png",
     "SpatialAnalysisAndModeling/images/generated-image.png",
     "MobileGis/FinalPresentation.md",
     "SpatialAnalysisAndModeling/index.html",
     "SpatialAnalysisAndModeling/images/twitterLogo.png",
-    "SpatialAnalysisAndModeling/images/Spring.png",
     "SpatialAnalysisAndModeling/images",
     "SpatialAnalysisAndModeling/WebGisPresentation.md",
     "SpatialAnalysisAndModeling/SatelliteImageClassification.ipynb",
